@@ -1,0 +1,10 @@
+{
+  "name": "Blockzara.Runtime.Tests",
+  "rootNamespace": "Blockzara.Runtime.Tests",
+  "references": ["Blockzara.Runtime", "Blockzara.Core"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "includePlatforms": [],
+  "autoReferenced": false,
+  "defineConstraints": ["UNITY_INCLUDE_TESTS"],
+  "noEngineReferences": false
+}

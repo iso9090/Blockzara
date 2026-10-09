@@ -1,0 +1,8 @@
+{
+  "name": "Blockzara.Core.Tests",
+  "rootNamespace": "Blockzara.Core.Tests",
+  "references": ["Blockzara.Core"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "includePlatforms": ["Editor"],
+  "noEngineReferences": true
+}

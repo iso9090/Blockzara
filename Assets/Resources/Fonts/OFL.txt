@@ -1,0 +1,5 @@
+Noto Naskh Arabic
+Copyright 2015-2022 The Noto Project Authors (https://github.com/notofonts/arabic)
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+https://openfontlicense.org
+Bundled subset: arabic-400-normal

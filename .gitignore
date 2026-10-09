@@ -1,0 +1,43 @@
+# Unity generated
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# IDE
+.vs/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local logs, captures, and older builds
+*.log
+/outputs/
+/Backups/
+/.superpowers/
+/Builds/*
+!/Builds/Blockzara-debug-ui-v3-26.apk
+
+# Packages that Unity restores
+/[Pp]ackages/packages-lock.json

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="5" result="Passed" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-08 07:05:37Z" end-time="2026-10-08 07:05:37Z" duration="0.0831747">
+  <test-suite type="TestSuite" id="1012" name="BLOCKZARA" fullname="BLOCKZARA" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-08 07:05:37Z" end-time="2026-10-08 07:05:37Z" duration="0.083175" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1007" name="Blockzara.Runtime.Tests.dll" fullname="D:/Projects/Blockzara/Library/ScriptAssemblies/Blockzara.Runtime.Tests.dll" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-08 07:05:37Z" end-time="2026-10-08 07:05:37Z" duration="0.072371" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="14272" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1008" name="Blockzara" fullname="Blockzara" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-08 07:05:37Z" end-time="2026-10-08 07:05:37Z" duration="0.071786" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1009" name="Runtime" fullname="Blockzara.Runtime" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-08 07:05:37Z" end-time="2026-10-08 07:05:37Z" duration="0.071543" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1010" name="Tests" fullname="Blockzara.Runtime.Tests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-08 07:05:37Z" end-time="2026-10-08 07:05:37Z" duration="0.071263" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1001" name="FallingPlayModeTests" fullname="Blockzara.Runtime.Tests.FallingPlayModeTests" classname="Blockzara.Runtime.Tests.FallingPlayModeTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-08 07:05:37Z" end-time="2026-10-08 07:05:37Z" duration="0.069934" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1005" name="HardDrop_LandsOnTheGhostRow" fullname="Blockzara.Runtime.Tests.FallingPlayModeTests.HardDrop_LandsOnTheGhostRow" methodname="HardDrop_LandsOnTheGhostRow" classname="Blockzara.Runtime.Tests.FallingPlayModeTests" runstate="Runnable" seed="1267642913" result="Passed" start-time="2026-10-08 07:05:37Z" end-time="2026-10-08 07:05:37Z" duration="0.040571" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[BZ falling start best=0
+BZ lock score=38 best=38 lines=0 combo=0 callout= over=False
+]]></output>
+              </test-case>
+              <test-case id="1002" name="HoldRight_MovesMoreThanOneColumn" fullname="Blockzara.Runtime.Tests.FallingPlayModeTests.HoldRight_MovesMoreThanOneColumn" methodname="HoldRight_MovesMoreThanOneColumn" classname="Blockzara.Runtime.Tests.FallingPlayModeTests" runstate="Runnable" seed="898545001" result="Passed" start-time="2026-10-08 07:05:37Z" end-time="2026-10-08 07:05:37Z" duration="0.005242" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[BZ falling start best=0
+]]></output>
+              </test-case>
+              <test-case id="1003" name="HoldSoftDrop_MovesMoreThanOneRow" fullname="Blockzara.Runtime.Tests.FallingPlayModeTests.HoldSoftDrop_MovesMoreThanOneRow" methodname="HoldSoftDrop_MovesMoreThanOneRow" classname="Blockzara.Runtime.Tests.FallingPlayModeTests" runstate="Runnable" seed="884369822" result="Passed" start-time="2026-10-08 07:05:37Z" end-time="2026-10-08 07:05:37Z" duration="0.001933" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[BZ falling start best=0
+]]></output>
+              </test-case>
+              <test-case id="1006" name="HorizontalClear_ScoresASingle" fullname="Blockzara.Runtime.Tests.FallingPlayModeTests.HorizontalClear_ScoresASingle" methodname="HorizontalClear_ScoresASingle" classname="Blockzara.Runtime.Tests.FallingPlayModeTests" runstate="Runnable" seed="537368559" result="Passed" start-time="2026-10-08 07:05:37Z" end-time="2026-10-08 07:05:37Z" duration="0.004633" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[BZ falling start best=0
+BZ lock score=100 best=100 lines=1 combo=1 callout=CLEAR! over=False
+]]></output>
+              </test-case>
+              <test-case id="1004" name="Rotate_UsesAWallKick" fullname="Blockzara.Runtime.Tests.FallingPlayModeTests.Rotate_UsesAWallKick" methodname="Rotate_UsesAWallKick" classname="Blockzara.Runtime.Tests.FallingPlayModeTests" runstate="Runnable" seed="40811476" result="Passed" start-time="2026-10-08 07:05:37Z" end-time="2026-10-08 07:05:37Z" duration="0.003581" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[BZ falling start best=0
+Saving results to: D:\Projects\Blockzara\Reports\tests\v51-final-play-20261008-110528.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

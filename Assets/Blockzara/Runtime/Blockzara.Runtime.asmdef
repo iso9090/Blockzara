@@ -1,0 +1,6 @@
+{
+  "name": "Blockzara.Runtime",
+  "rootNamespace": "Blockzara.Runtime",
+  "references": ["Blockzara.Core", "UnityEngine.UI"],
+  "noEngineReferences": false
+}

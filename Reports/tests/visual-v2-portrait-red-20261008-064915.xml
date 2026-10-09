@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="2" result="Failed(Child)" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-08 02:49:23Z" end-time="2026-10-08 02:49:23Z" duration="0.0489588">
+  <test-suite type="TestSuite" id="1000" name="BLOCKZARA" fullname="BLOCKZARA" runstate="Runnable" testcasecount="22" result="Failed" site="Child" start-time="2026-10-08 02:49:23Z" end-time="2026-10-08 02:49:23Z" duration="0.048959" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1004" name="Assembly-CSharp-Editor.dll" fullname="D:/Projects/Blockzara/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-10-08 02:49:23Z" end-time="2026-10-08 02:49:23Z" duration="0.037443" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="11416" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="1001" name="VisualV2CaptureUtilityTests" fullname="VisualV2CaptureUtilityTests" classname="VisualV2CaptureUtilityTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2026-10-08 02:49:23Z" end-time="2026-10-08 02:49:23Z" duration="0.036023" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="1002" name="CaptureUtility_IsAvailableFromTheEditorAssembly" fullname="VisualV2CaptureUtilityTests.CaptureUtility_IsAvailableFromTheEditorAssembly" methodname="CaptureUtility_IsAvailableFromTheEditorAssembly" classname="VisualV2CaptureUtilityTests" runstate="Runnable" seed="1221963957" result="Passed" start-time="2026-10-08 02:49:23Z" end-time="2026-10-08 02:49:23Z" duration="0.014346" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1003" name="CaptureUtility_ProvidesPortraitGameViewConfiguration" fullname="VisualV2CaptureUtilityTests.CaptureUtility_ProvidesPortraitGameViewConfiguration" methodname="CaptureUtility_ProvidesPortraitGameViewConfiguration" classname="VisualV2CaptureUtilityTests" runstate="Runnable" seed="2146804103" result="Failed" start-time="2026-10-08 02:49:23Z" end-time="2026-10-08 02:49:23Z" duration="0.005987" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <failure>
+            <message><![CDATA[  The capture utility must select a real 720x1520 Editor Game View before Unity captures a frame.
+  Expected: not null
+  But was:  null
+]]></message>
+            <stack-trace><![CDATA[at VisualV2CaptureUtilityTests.CaptureUtility_ProvidesPortraitGameViewConfiguration () [0x0000a] in D:\Projects\Blockzara\Assets\Blockzara\Editor\Tests\VisualV2CaptureUtilityTests.cs:17
+]]></stack-trace>
+          </failure>
+          <output><![CDATA[Saving results to: D:\Projects\Blockzara\Reports\tests\visual-v2-portrait-red-20261008-064915.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

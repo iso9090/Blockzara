@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="23" result="Passed" total="23" passed="23" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-08 03:10:37Z" end-time="2026-10-08 03:10:37Z" duration="0.1784207">
+  <test-suite type="TestSuite" id="1000" name="BLOCKZARA" fullname="BLOCKZARA" runstate="Runnable" testcasecount="23" result="Passed" start-time="2026-10-08 03:10:37Z" end-time="2026-10-08 03:10:37Z" duration="0.178421" total="23" passed="23" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1005" name="Assembly-CSharp-Editor.dll" fullname="D:/Projects/Blockzara/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-08 03:10:37Z" end-time="2026-10-08 03:10:37Z" duration="0.073268" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="24888" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestFixture" id="1001" name="VisualV2CaptureUtilityTests" fullname="VisualV2CaptureUtilityTests" classname="VisualV2CaptureUtilityTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-08 03:10:37Z" end-time="2026-10-08 03:10:37Z" duration="0.068539" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1002" name="CaptureUtility_IsAvailableFromTheEditorAssembly" fullname="VisualV2CaptureUtilityTests.CaptureUtility_IsAvailableFromTheEditorAssembly" methodname="CaptureUtility_IsAvailableFromTheEditorAssembly" classname="VisualV2CaptureUtilityTests" runstate="Runnable" seed="828238147" result="Passed" start-time="2026-10-08 03:10:37Z" end-time="2026-10-08 03:10:37Z" duration="0.031786" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1003" name="CaptureUtility_ProvidesPortraitGameViewConfiguration" fullname="VisualV2CaptureUtilityTests.CaptureUtility_ProvidesPortraitGameViewConfiguration" methodname="CaptureUtility_ProvidesPortraitGameViewConfiguration" classname="VisualV2CaptureUtilityTests" runstate="Runnable" seed="2088426672" result="Passed" start-time="2026-10-08 03:10:37Z" end-time="2026-10-08 03:10:37Z" duration="0.000533" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1004" name="MainMenuV3_HasAnIsolatedPremiumMenuRenderer" fullname="VisualV2CaptureUtilityTests.MainMenuV3_HasAnIsolatedPremiumMenuRenderer" methodname="MainMenuV3_HasAnIsolatedPremiumMenuRenderer" classname="VisualV2CaptureUtilityTests" runstate="Runnable" seed="1424724549" result="Passed" start-time="2026-10-08 03:10:37Z" end-time="2026-10-08 03:10:37Z" duration="0.001923" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+      </test-suite>
+    </test-suite>
+    <test-suite type="Assembly" id="1027" name="Blockzara.Core.Tests.dll" fullname="D:/Projects/Blockzara/Library/ScriptAssemblies/Blockzara.Core.Tests.dll" runstate="Runnable" testcasecount="20" result="Passed" start-time="2026-10-08 03:10:37Z" end-time="2026-10-08 03:10:37Z" duration="0.079351" total="20" passed="20" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="24888" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1028" name="Blockzara" fullname="Blockzara" runstate="Runnable" testcasecount="20" result="Passed" start-time="2026-10-08 03:10:37Z" end-time="2026-10-08 03:10:37Z" duration="0.078789" total="20" passed="20" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1029" name="Core" fullname="Blockzara.Core" runstate="Runnable" testcasecount="20" result="Passed" start-time="2026-10-08 03:10:37Z" end-time="2026-10-08 03:10:37Z" duration="0.078535" total="20" passed="20" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1030" name="Tests" fullname="Blockzara.Core.Tests" runstate="Runnable" testcasecount="20" result="Passed" start-time="2026-10-08 03:10:37Z" end-time="2026-10-08 03:10:37Z" duration="0.078191" total="20" passed="20" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1006" name="FallingRulesTests" fullname="Blockzara.Core.Tests.FallingRulesTests" classname="Blockzara.Core.Tests.FallingRulesTests" runstate="Runnable" testcasecount="20" result="Passed" start-time="2026-10-08 03:10:37Z" end-time="2026-10-08 03:10:37Z" duration="0.077378" total="20" passed="20" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1009" name="Bag_DealsSevenUnique_ThenRepeatsForTheSameSeed" fullname="Blockzara.Core.Tests.FallingRulesTests.Bag_DealsSevenUnique_ThenRepeatsForTheSameSeed" methodname="Bag_DealsSevenUnique_ThenRepeatsForTheSameSeed" classname="Blockzara.Core.Tests.FallingRulesTests" runstate="Runnable" seed="476337299" result="Passed" start-time="2026-10-08 03:10:37Z" end-time="2026-10-08 03:10:37Z" duration="0.014894" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1007" name="Board_IsTenByTwenty_WithTwoHiddenRows" fullname="Blockzara.Core.Tests.FallingRulesTests.Board_IsTenByTwenty_WithTwoHiddenRows" methodname="Board_IsTenByTwenty_WithTwoHiddenRows" classname="Blockzara.Core.Tests.FallingRulesTests" runstate="Runnable" seed="447255399" result="Passed" start-time="2026-10-08 03:10:37Z" end-time="2026-10-08 03:10:37Z" duration="0.009523" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1018" name="Clear_RemovesFullRows_AndIgnoresAFullColumn" fullname="Blockzara.Core.Tests.FallingRulesTests.Clear_RemovesFullRows_AndIgnoresAFullColumn" methodname="Clear_RemovesFullRows_AndIgnoresAFullColumn" classname="Blockzara.Core.Tests.FallingRulesTests" runstate="Runnable" seed="1383966813" result="Passed" start-time="2026-10-08 03:10:37Z" end-time="2026-10-08 03:10:37Z" duration="0.008711" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1019" name="Clear_ScoresDoubleAmazingAndTetris" fullname="Blockzara.Core.Tests.FallingRulesTests.Clear_ScoresDoubleAmazingAndTetris" methodname="Clear_ScoresDoubleAmazingAndTetris" classname="Blockzara.Core.Tests.FallingRulesTests" runstate="Runnable" seed="1058873760" result="Passed" start-time="2026-10-08 03:10:37Z" end-time="2026-10-08 03:10:37Z" duration="0.002148" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1020" name="Combo_IncrementsAcrossClears_AndResetsOnAQuietLock" fullname="Blockzara.Core.Tests.FallingRulesTests.Combo_IncrementsAcrossClears_AndResetsOnAQuietLock" methodname="Combo_IncrementsAcrossClears_AndResetsOnAQuietLock" classname="Blockzara.Core.Tests.FallingRulesTests" runstate="Runnable" seed="167357984" result="Passed" start-time="2026-10-08 03:10:37Z" end-time="2026-10-08 03:10:37Z" duration="0.002169" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1021" name="FallInterval_StartsAtOneSecond_AndFloorsAtOneTenth" fullname="Blockzara.Core.Tests.FallingRulesTests.FallInterval_StartsAtOneSecond_AndFloorsAtOneTenth" methodname="FallInterval_StartsAtOneSecond_AndFloorsAtOneTenth" classname="Blockzara.Core.Tests.FallingRulesTests" runstate="Runnable" seed="1615323502" result="Passed" start-time="2026-10-08 03:10:37Z" end-time="2026-10-08 03:10:37Z" duration="0.012165" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1017" name="HardDrop_ScoresTwoPerRow_AndLandsOnTheGhostRow" fullname="Blockzara.Core.Tests.FallingRulesTests.HardDrop_ScoresTwoPerRow_AndLandsOnTheGhostRow" methodname="HardDrop_ScoresTwoPerRow_AndLandsOnTheGhostRow" classname="Blockzara.Core.Tests.FallingRulesTests" runstate="Runnable" seed="1886986740" result="Passed" start-time="2026-10-08 03:10:37Z" end-time="2026-10-08 03:10:37Z" duration="0.001710" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1026" name="HoldScheduler_FiresImmediately_ThenAfterTheDelay" fullname="Blockzara.Core.Tests.FallingRulesTests.HoldScheduler_FiresImmediately_ThenAfterTheDelay" methodname="HoldScheduler_FiresImmediately_ThenAfterTheDelay" classname="Blockzara.Core.Tests.FallingRulesTests" runstate="Runnable" seed="1246624111" result="Passed" start-time="2026-10-08 03:10:37Z" end-time="2026-10-08 03:10:37Z" duration="0.000972" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1025" name="LockingOnAHiddenRow_EndsTheGame" fullname="Blockzara.Core.Tests.FallingRulesTests.LockingOnAHiddenRow_EndsTheGame" methodname="LockingOnAHiddenRow_EndsTheGame" classname="Blockzara.Core.Tests.FallingRulesTests" runstate="Runnable" seed="105215715" result="Passed" start-time="2026-10-08 03:10:37Z" end-time="2026-10-08 03:10:37Z" duration="0.000756" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1011" name="Move_StopsAtTheWalls" fullname="Blockzara.Core.Tests.FallingRulesTests.Move_StopsAtTheWalls" methodname="Move_StopsAtTheWalls" classname="Blockzara.Core.Tests.FallingRulesTests" runstate="Runnable" seed="632372633" result="Passed" start-time="2026-10-08 03:10:37Z" end-time="2026-10-08 03:10:37Z" duration="0.000873" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1010" name="NextPiece_StaysUntilTheActivePieceLocks" fullname="Blockzara.Core.Tests.FallingRulesTests.NextPiece_StaysUntilTheActivePieceLocks" methodname="NextPiece_StaysUntilTheActivePieceLocks" classname="Blockzara.Core.Tests.FallingRulesTests" runstate="Runnable" seed="1474518685" result="Passed" start-time="2026-10-08 03:10:37Z" end-time="2026-10-08 03:10:37Z" duration="0.000508" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1022" name="Pause_BlocksGravityAndMovement" fullname="Blockzara.Core.Tests.FallingRulesTests.Pause_BlocksGravityAndMovement" methodname="Pause_BlocksGravityAndMovement" classname="Blockzara.Core.Tests.FallingRulesTests" runstate="Runnable" seed="1414267536" result="Passed" start-time="2026-10-08 03:10:37Z" end-time="2026-10-08 03:10:37Z" duration="0.000954" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1023" name="Restart_ClearsTheRun_AndKeepsTheBestScore" fullname="Blockzara.Core.Tests.FallingRulesTests.Restart_ClearsTheRun_AndKeepsTheBestScore" methodname="Restart_ClearsTheRun_AndKeepsTheBestScore" classname="Blockzara.Core.Tests.FallingRulesTests" runstate="Runnable" seed="1509534508" result="Passed" start-time="2026-10-08 03:10:37Z" end-time="2026-10-08 03:10:37Z" duration="0.001405" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1015" name="Rotate_I_UsesTheSecondKick" fullname="Blockzara.Core.Tests.FallingRulesTests.Rotate_I_UsesTheSecondKick" methodname="Rotate_I_UsesTheSecondKick" classname="Blockzara.Core.Tests.FallingRulesTests" runstate="Runnable" seed="1980028858" result="Passed" start-time="2026-10-08 03:10:37Z" end-time="2026-10-08 03:10:37Z" duration="0.002296" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1012" name="Rotate_O_IsANoOp" fullname="Blockzara.Core.Tests.FallingRulesTests.Rotate_O_IsANoOp" methodname="Rotate_O_IsANoOp" classname="Blockzara.Core.Tests.FallingRulesTests" runstate="Runnable" seed="1136250289" result="Passed" start-time="2026-10-08 03:10:37Z" end-time="2026-10-08 03:10:37Z" duration="0.002681" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1014" name="Rotate_T_DoesNothing_WhenEveryKickIsBlocked" fullname="Blockzara.Core.Tests.FallingRulesTests.Rotate_T_DoesNothing_WhenEveryKickIsBlocked" methodname="Rotate_T_DoesNothing_WhenEveryKickIsBlocked" classname="Blockzara.Core.Tests.FallingRulesTests" runstate="Runnable" seed="1120384321" result="Passed" start-time="2026-10-08 03:10:37Z" end-time="2026-10-08 03:10:37Z" duration="0.000772" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1013" name="Rotate_T_UsesTheSecondKick_WhenTheBasicPoseIsBlocked" fullname="Blockzara.Core.Tests.FallingRulesTests.Rotate_T_UsesTheSecondKick_WhenTheBasicPoseIsBlocked" methodname="Rotate_T_UsesTheSecondKick_WhenTheBasicPoseIsBlocked" classname="Blockzara.Core.Tests.FallingRulesTests" runstate="Runnable" seed="759290925" result="Passed" start-time="2026-10-08 03:10:37Z" end-time="2026-10-08 03:10:37Z" duration="0.000652" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1016" name="SoftDrop_ScoresOnePerRow_AndLocksWhenBlocked" fullname="Blockzara.Core.Tests.FallingRulesTests.SoftDrop_ScoresOnePerRow_AndLocksWhenBlocked" methodname="SoftDrop_ScoresOnePerRow_AndLocksWhenBlocked" classname="Blockzara.Core.Tests.FallingRulesTests" runstate="Runnable" seed="1019072609" result="Passed" start-time="2026-10-08 03:10:37Z" end-time="2026-10-08 03:10:37Z" duration="0.000813" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1008" name="Spawn_UsesHiddenRows_AndCenteredColumns" fullname="Blockzara.Core.Tests.FallingRulesTests.Spawn_UsesHiddenRows_AndCenteredColumns" methodname="Spawn_UsesHiddenRows_AndCenteredColumns" classname="Blockzara.Core.Tests.FallingRulesTests" runstate="Runnable" seed="828812439" result="Passed" start-time="2026-10-08 03:10:37Z" end-time="2026-10-08 03:10:37Z" duration="0.004617" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1024" name="SpawnIntoFilledCells_EndsTheGame" fullname="Blockzara.Core.Tests.FallingRulesTests.SpawnIntoFilledCells_EndsTheGame" methodname="SpawnIntoFilledCells_EndsTheGame" classname="Blockzara.Core.Tests.FallingRulesTests" runstate="Runnable" seed="1315744689" result="Passed" start-time="2026-10-08 03:10:37Z" end-time="2026-10-08 03:10:37Z" duration="0.000938" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: D:\Projects\Blockzara\Reports\tests\menu-v3-editmode-20261008-071024.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

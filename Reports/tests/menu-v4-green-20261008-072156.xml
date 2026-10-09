@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="4" result="Passed" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-08 03:22:04Z" end-time="2026-10-08 03:22:05Z" duration="0.0782411">
+  <test-suite type="TestSuite" id="1000" name="BLOCKZARA" fullname="BLOCKZARA" runstate="Runnable" testcasecount="24" result="Passed" start-time="2026-10-08 03:22:04Z" end-time="2026-10-08 03:22:05Z" duration="0.078241" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1006" name="Assembly-CSharp-Editor.dll" fullname="D:/Projects/Blockzara/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-08 03:22:04Z" end-time="2026-10-08 03:22:05Z" duration="0.059237" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="25340" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestFixture" id="1001" name="VisualV2CaptureUtilityTests" fullname="VisualV2CaptureUtilityTests" classname="VisualV2CaptureUtilityTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-08 03:22:04Z" end-time="2026-10-08 03:22:05Z" duration="0.056807" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1002" name="CaptureUtility_IsAvailableFromTheEditorAssembly" fullname="VisualV2CaptureUtilityTests.CaptureUtility_IsAvailableFromTheEditorAssembly" methodname="CaptureUtility_IsAvailableFromTheEditorAssembly" classname="VisualV2CaptureUtilityTests" runstate="Runnable" seed="1517924450" result="Passed" start-time="2026-10-08 03:22:04Z" end-time="2026-10-08 03:22:05Z" duration="0.025499" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1003" name="CaptureUtility_ProvidesPortraitGameViewConfiguration" fullname="VisualV2CaptureUtilityTests.CaptureUtility_ProvidesPortraitGameViewConfiguration" methodname="CaptureUtility_ProvidesPortraitGameViewConfiguration" classname="VisualV2CaptureUtilityTests" runstate="Runnable" seed="1875548980" result="Passed" start-time="2026-10-08 03:22:05Z" end-time="2026-10-08 03:22:05Z" duration="0.000418" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1004" name="MainMenuV3_HasAnIsolatedPremiumMenuRenderer" fullname="VisualV2CaptureUtilityTests.MainMenuV3_HasAnIsolatedPremiumMenuRenderer" methodname="MainMenuV3_HasAnIsolatedPremiumMenuRenderer" classname="VisualV2CaptureUtilityTests" runstate="Runnable" seed="1227421940" result="Passed" start-time="2026-10-08 03:22:05Z" end-time="2026-10-08 03:22:05Z" duration="0.001938" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1005" name="MainMenuV4_HasAReusableFeatureIconRenderer" fullname="VisualV2CaptureUtilityTests.MainMenuV4_HasAReusableFeatureIconRenderer" methodname="MainMenuV4_HasAReusableFeatureIconRenderer" classname="VisualV2CaptureUtilityTests" runstate="Runnable" seed="219349409" result="Passed" start-time="2026-10-08 03:22:05Z" end-time="2026-10-08 03:22:05Z" duration="0.001234" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Saving results to: D:\Projects\Blockzara\Reports\tests\menu-v4-green-20261008-072156.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

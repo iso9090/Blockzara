@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Failed(Child)" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-08 02:42:23Z" end-time="2026-10-08 02:42:24Z" duration="0.0460068">
+  <test-suite type="TestSuite" id="1000" name="BLOCKZARA" fullname="BLOCKZARA" runstate="Runnable" testcasecount="21" result="Failed" site="Child" start-time="2026-10-08 02:42:23Z" end-time="2026-10-08 02:42:24Z" duration="0.046007" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1003" name="Assembly-CSharp-Editor.dll" fullname="D:/Projects/Blockzara/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-10-08 02:42:23Z" end-time="2026-10-08 02:42:24Z" duration="0.034155" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="12368" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="1001" name="VisualV2CaptureUtilityTests" fullname="VisualV2CaptureUtilityTests" classname="VisualV2CaptureUtilityTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2026-10-08 02:42:23Z" end-time="2026-10-08 02:42:24Z" duration="0.032784" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="1002" name="CaptureUtility_IsAvailableFromTheEditorAssembly" fullname="VisualV2CaptureUtilityTests.CaptureUtility_IsAvailableFromTheEditorAssembly" methodname="CaptureUtility_IsAvailableFromTheEditorAssembly" classname="VisualV2CaptureUtilityTests" runstate="Runnable" seed="1112037726" result="Failed" start-time="2026-10-08 02:42:24Z" end-time="2026-10-08 02:42:24Z" duration="0.017645" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <failure>
+            <message><![CDATA[  The editor-only Visual V2 capture entry point is required for deterministic Unity-rendered review frames.
+  Expected: not null
+  But was:  null
+]]></message>
+            <stack-trace><![CDATA[at VisualV2CaptureUtilityTests.CaptureUtility_IsAvailableFromTheEditorAssembly () [0x0000a] in D:\Projects\Blockzara\Assets\Blockzara\Editor\Tests\VisualV2CaptureUtilityTests.cs:10
+]]></stack-trace>
+          </failure>
+          <output><![CDATA[Saving results to: D:\Projects\Blockzara\Reports\tests\visual-v2-capture-red-20261008-064215.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
